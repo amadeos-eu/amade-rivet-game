@@ -49,12 +49,23 @@ class WorldTest {
     }
 
     @Test
-    void aCrawlerThatSeesThePlayerComesAndBites() {
+    void aCrawlerThatHearsAShotComesAndBites() {
         World w = world("RRRRRRRRRR", "R@......cR", "RRRRRRRRRR");
+        run(w, 1.6, Input.NONE);
+        run(w, 0.05, fire());
         run(w, 6, Input.NONE);
         assertTrue(w.player().health() < Player.MAX_HEALTH);
-        assertEquals(Machine.State.CHASE, w.machines().getFirst().state().compareTo(Machine.State.WINDUP) <= 0
-                ? Machine.State.CHASE : w.machines().getFirst().state());
+        assertTrue(w.machines().getFirst().state() != Machine.State.IDLE);
+    }
+
+    @Test
+    void machinesTakeAMomentToNoticeThePlayerWhenTheLevelStarts() {
+        World w = world("RRRRRRRR", "R@.c...R", "RRRRRRRR");
+        run(w, 1.2, Input.NONE);
+        assertEquals(Machine.State.IDLE, w.machines().getFirst().state());
+        run(w, 1.0, Input.NONE);
+        // two cells away it notices the player whichever way it faces
+        assertEquals(Machine.State.CHASE, w.machines().getFirst().state());
     }
 
     @Test

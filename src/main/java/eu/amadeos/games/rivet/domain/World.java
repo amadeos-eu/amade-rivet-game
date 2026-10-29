@@ -29,6 +29,8 @@ public final class World {
     static final double RUN = 5.2;
     static final double USE_RANGE = 1.3;
     static final double PICKUP_RANGE = 0.55;
+    /** Seconds after the start of a level in which no machine notices the player by sight. */
+    static final double WAKE_SECONDS = 1.5;
     static final int MAX_DRONES = 6;
 
     private final LevelData level;
@@ -90,9 +92,10 @@ public final class World {
                     map.setWall(x, y, s.wall(c));
                     continue;
                 }
-                map.setFloor(x, y, s.floor(c == '_' ? "snow" : level.floor()));
+                boolean sky = outdoors(x, y);
+                map.setFloor(x, y, s.floor(sky ? "snow" : level.floor()));
                 boolean lamp = c == ',' || c == ';' || c == ':';
-                map.setCeiling(x, y, c == '_' ? null : s.ceiling(lamp));
+                map.setCeiling(x, y, sky ? null : s.ceiling(lamp));
                 switch (c) {
                     case ',' -> lights.add(new LightMap.Light(cx, cy, 0.95, 0.97, 1.0, 4.5));
                     case ';' -> lights.add(new LightMap.Light(cx, cy, 0.35, 0.6, 0.95, 4.5));
@@ -127,6 +130,19 @@ public final class World {
         }
     }
 
+    /**
+     * Open sky: a {@code _} cell, or a thing standing in the open (a crate, a machine, the start), which is a
+     * cell with sky on most sides.
+     */
+    private boolean outdoors(int x, int y) {
+        char c = level.at(x, y);
+        if (c == '_') return true;
+        if ("-|gavs,;:".indexOf(c) >= 0) return false;
+        int open = 0;
+        for (int dy = -1; dy <= 1; dy++) for (int dx = -1; dx <= 1; dx++) if (level.at(x + dx, y + dy) == '_') open++;
+        return open >= 4;
+    }
+
     private void door(Surfaces s, int x, int y, char c) {
         boolean alongX = LevelData.wall(level.at(x - 1, y)) && LevelData.wall(level.at(x + 1, y));
         if (c == '-') alongX = true;
@@ -150,7 +166,8 @@ public final class World {
     }
 
     private Machine machine(MachineKind kind, double x, double y) {
-        Machine m = new Machine(kind, x, y, angleTo(x, y, player.x, player.y), kind.health() * difficulty.strength());
+        // machines stand facing any way: some see the player coming, some must be woken
+        Machine m = new Machine(kind, x, y, random.nextDouble() * Math.PI * 2 - Math.PI, kind.health() * difficulty.strength());
         machines.add(m);
         return m;
     }
@@ -443,7 +460,9 @@ public final class World {
             switch (m.state) {
                 case IDLE -> {
                     double off = Math.abs(normalize(Math.atan2(dy, dx) - m.facing));
-                    if (sees && (off < Math.PI * 0.6 || dist < 3)) alert(m);
+                    // a machine idles a moment after the level starts, and notices the player only well inside
+                    // its sight, ahead of it, or close by
+                    if (time > WAKE_SECONDS && sees && (off < Math.PI * 0.6 && dist < m.kind.sight() * 0.7 || dist < 3)) alert(m);
                 }
                 case CHASE -> {
                     if (sees) m.facing = Math.atan2(dy, dx);

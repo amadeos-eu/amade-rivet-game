@@ -13,6 +13,10 @@ public final class Run {
     public static final List<String> LEVELS = List.of("1-1", "1-2", "1-3", "2-1", "2-2", "2-3", "3-1", "3-2", "3-3");
     public static final int SECTIONS = 3;
 
+    /** How a run ended: the points, how hard it was, the level reached, and whether the core was shut down. */
+    public record Result(int score, Difficulty difficulty, String levelId, boolean won) {
+    }
+
     private final Difficulty difficulty;
     private int index;
     private Player player;
@@ -74,5 +78,9 @@ public final class Run {
 
     public Player player() {
         return player;
+    }
+
+    public Result result() {
+        return new Result(score, difficulty, levelId(), finished());
     }
 }

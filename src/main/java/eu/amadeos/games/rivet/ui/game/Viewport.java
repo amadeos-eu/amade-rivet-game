@@ -90,6 +90,7 @@ final class Viewport {
 
     // ---- drawing ------------------------------------------------------------------------------------
 
+    // --8<-- [start:render]
     /**
      * Draws the view {@code width} pixels wide. {@code dying} is the seconds since the player fell (the eye
      * sinks), 0 while alive; {@code withTool} false hides the hand, as on the title, where {@code turn} slowly
@@ -116,6 +117,7 @@ final class Viewport {
         explore(fx.time());
         if (withTool && dying == 0 && art != null) tool(g, width, p, fx, art, bob);
     }
+    // --8<-- [end:render]
 
     // --8<-- [start:billboards]
     private void billboards(Effects fx, Art art) {

@@ -134,6 +134,7 @@ public final class RivetGame implements Arena {
         scenes.push(new TitleScene());
     }
 
+    // --8<-- [start:art]
     /** Starts the loop on the canvas, and the rendering of the 3D pictures beside it. */
     public void start(GameCanvas canvas) {
         this.canvas = canvas;
@@ -144,6 +145,7 @@ public final class RivetGame implements Arena {
         loop = new GameLoop(UPDATES_PER_SECOND, FRAMES_PER_SECOND, this::update, canvas::render);
         loop.start();
     }
+    // --8<-- [end:art]
 
     public void stop() {
         if (loop != null) loop.stop();

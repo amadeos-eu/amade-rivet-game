@@ -235,6 +235,7 @@ final class Effects {
         messages.removeIf(m -> time - m.born() > MESSAGE_SECONDS);
     }
 
+    // --8<-- [start:flashes]
     /** The lights of this moment: shots, blasts, glowing shots in flight. */
     void lights(World world, LightMap lights) {
         Player p = world.player();
@@ -259,6 +260,7 @@ final class Effects {
             lights.flash(new LightMap.Light(s.x(), s.y(), 1.6 * k, 0.9 * k, 0.35 * k, 2 + s.size() * 2));
         }
     }
+    // --8<-- [end:flashes]
 
     double time() {
         return time;

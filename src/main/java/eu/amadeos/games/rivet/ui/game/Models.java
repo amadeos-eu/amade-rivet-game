@@ -82,6 +82,7 @@ final class Models {
 
     // ---- machines -----------------------------------------------------------------------------------
 
+    // --8<-- [start:drone]
     /** The welder drone: a ball with one red eye, two rotors and a torch underneath. Frame 1 is about to fire. */
     static Model drone(int frame) {
         return new Part() {
@@ -102,6 +103,7 @@ final class Models {
             }
         };
     }
+    // --8<-- [end:drone]
 
     /** The crawler: a striped drill bot on six legs. Frames 0 to 3 walk, frame 4 bites. */
     static Model crawler(int frame) {

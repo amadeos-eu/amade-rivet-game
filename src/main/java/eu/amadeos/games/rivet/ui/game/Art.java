@@ -185,6 +185,7 @@ final class Art {
 
     // ---- the tools ----------------------------------------------------------------------------------
 
+    // --8<-- [start:tool]
     /** The tool in the right hand as the player sees it; firing, it is lit by its own flash. */
     static BufferedImage tool(ModelRenderer renderer, Weapon w, boolean firing) {
         Placement at = placement(w, firing);
@@ -200,6 +201,7 @@ final class Art {
         return renderer.picture(Models.tool(w, firing, true), TOOL_W * s, TOOL_H * s, 480.0 * s,
                 (320 - TOOL_X) * s, (200 - TOOL_Y) * s, at, lamps);
     }
+    // --8<-- [end:tool]
 
     /** Where the tool is held: low on the right, pointing at the middle of the view, tilted a little. */
     static Placement placement(Weapon w, boolean firing) {

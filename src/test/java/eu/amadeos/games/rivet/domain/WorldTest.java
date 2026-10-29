@@ -58,6 +58,7 @@ class WorldTest {
         assertTrue(w.machines().getFirst().state() != Machine.State.IDLE);
     }
 
+    // --8<-- [start:test-wake]
     @Test
     void machinesTakeAMomentToNoticeThePlayerWhenTheLevelStarts() {
         World w = world("RRRRRRRR", "R@.c...R", "RRRRRRRR");
@@ -67,6 +68,7 @@ class WorldTest {
         // two cells away it notices the player whichever way it faces
         assertEquals(Machine.State.CHASE, w.machines().getFirst().state());
     }
+    // --8<-- [end:test-wake]
 
     @Test
     void aMachineBehindAWallStaysIdle() {

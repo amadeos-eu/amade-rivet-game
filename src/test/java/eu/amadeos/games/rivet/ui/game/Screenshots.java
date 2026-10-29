@@ -7,6 +7,9 @@ import eu.amadeos.gameengine.input.Keyboard;
 import eu.amadeos.gameengine.input.Mouse;
 import eu.amadeos.gameengine.input.MouseLook;
 import eu.amadeos.gameengine.random.SeededRandom;
+import eu.amadeos.gameengine.raycast.Texture;
+import eu.amadeos.gameengine.raycast.Views;
+import eu.amadeos.gameengine.raycast.model.ModelRenderer;
 import eu.amadeos.games.rivet.bootstrap.RivetModule;
 import eu.amadeos.games.rivet.domain.Difficulty;
 import eu.amadeos.games.rivet.domain.Input;
@@ -28,7 +31,8 @@ import java.util.Locale;
 
 /**
  * The screenshots of chapter 60 and of the README, drawn without a screen: the title, the setup card, a
- * machine in the landing pad's yard under the giant planet, the pump hall, the workshops and the map. {@code ./gradlew screenshots -Pshots=<folder>}.
+ * machine in the landing pad's yard under the giant planet, the pump hall, the workshops, the map and the drone from
+ * its eight sides. {@code ./gradlew screenshots -Pshots=<folder>}.
  */
 public final class Screenshots {
     private static final double STEP = 1.0 / RivetGame.UPDATES_PER_SECOND;
@@ -77,7 +81,22 @@ public final class Screenshots {
         shots.fire(workshops, 0.3);
         shots.save(new File(dir, "workshops.png"));
 
+        drone(new File(dir, "drone-views.png"));
         System.exit(0);
+    }
+
+    /** The drone from its eight sides, as the game renders it for the billboards, on a dark strip. */
+    private static void drone(File file) throws Exception {
+        Views views = new ModelRenderer().views(Models::drone, 1, Art.DIRECTIONS, Art.MACHINE_SIZE, 12);
+        int size = Art.MACHINE_SIZE;
+        BufferedImage image = new BufferedImage(size * Art.DIRECTIONS, size, BufferedImage.TYPE_INT_RGB);
+        for (int d = 0; d < Art.DIRECTIONS; d++) {
+            Texture t = views.pick(0, 0, 2 * Math.PI * d / Art.DIRECTIONS);
+            for (int v = 0; v < size; v++) for (int u = 0; u < size; u++) {
+                image.setRGB(d * size + u, v, t.opaque(u, v) ? t.argb(u, v) : 0x1b222a);
+            }
+        }
+        ImageIO.write(image, "png", file);
     }
 
     /** A run standing at the start of level {@code index} of {@link Run#LEVELS}. */

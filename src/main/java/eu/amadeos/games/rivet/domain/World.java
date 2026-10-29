@@ -83,6 +83,7 @@ public final class World {
         };
     }
 
+    // --8<-- [start:build]
     private void build(Surfaces s) {
         for (int y = 0; y < level.height(); y++) {
             for (int x = 0; x < level.width(); x++) {
@@ -129,6 +130,7 @@ public final class World {
             }
         }
     }
+    // --8<-- [end:build]
 
     /**
      * Open sky: a {@code _} cell, or a thing standing in the open (a crate, a machine, the start), which is a
@@ -301,6 +303,7 @@ public final class World {
 
     // ---- shooting -----------------------------------------------------------------------------------
 
+    // --8<-- [start:fire]
     private void fire(Weapon w) {
         player.cooldown = w.pause();
         player.sinceShot = 0;
@@ -344,6 +347,7 @@ public final class World {
             }
         }
     }
+    // --8<-- [end:fire]
 
     private List<Hitscan.Target> targets() {
         List<Hitscan.Target> t = new ArrayList<>();
@@ -441,6 +445,7 @@ public final class World {
         }
     }
 
+    // --8<-- [start:machines]
     private void updateMachines(double dt) {
         Cell goal = new Cell((int) player.x, (int) player.y);
         flowAge += dt;
@@ -491,6 +496,7 @@ public final class World {
         machines.addAll(born);
         separate();
     }
+    // --8<-- [end:machines]
 
     private static double windup(MachineKind kind) {
         return switch (kind.attack()) {

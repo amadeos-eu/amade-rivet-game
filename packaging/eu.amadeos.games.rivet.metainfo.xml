@@ -8,44 +8,44 @@
 
   <name>amadeOS Rivet</name>
 
-  <summary>Two to four tanks take turns firing shells over hills, against the wind, on ground that breaks apart</summary>
-  <summary xml:lang="de">Zwei bis vier Panzer feuern abwechselnd über Hügel, gegen den Wind, auf einem Boden, der zerbricht</summary>
-  <summary xml:lang="fr">Deux à quatre chars tirent à tour de rôle par-dessus les collines, contre le vent, sur un sol qui se brise</summary>
-  <summary xml:lang="es">De dos a cuatro tanques disparan por turnos sobre las colinas, contra el viento, en un terreno que se rompe</summary>
-  <summary xml:lang="it">Da due a quattro carri armati sparano a turno sopra le colline, contro il vento, su un terreno che si sgretola</summary>
+  <summary>In 3D against the machines of a mine under the ice of a frozen moon</summary>
+  <summary xml:lang="de">In 3D gegen die Maschinen einer Mine unter dem Eis eines gefrorenen Mondes</summary>
+  <summary xml:lang="fr">En 3D contre les machines d'une mine sous la glace d'une lune gelée</summary>
+  <summary xml:lang="es">En 3D contra las máquinas de una mina bajo el hielo de una luna helada</summary>
+  <summary xml:lang="it">In 3D contro le macchine di una miniera sotto il ghiaccio di una luna gelata</summary>
 
   <description>
-    <p>The rivet duel of the amadeOS desktop: tanks stand on a landscape of hills and valleys and take turns. Set the barrel's angle and the shot's power, mind the wind, and fire. Every hit blasts a crater out of the ground, earth without support falls down, and a tank whose ground is shot away falls with it. The last tank standing wins the round.</p>
-    <p xml:lang="de">Das Artillerie-Duell des amadeOS-Desktops: Panzer stehen auf einer Landschaft aus Hügeln und Tälern und sind abwechselnd am Zug. Stellen Sie den Winkel des Rohrs und die Stärke des Schusses ein, achten Sie auf den Wind und feuern Sie. Jeder Treffer sprengt einen Krater in den Boden, Erde ohne Halt fällt herab, und ein Panzer, dem der Boden weggeschossen wird, fällt mit. Der letzte Panzer gewinnt die Runde.</p>
-    <p xml:lang="fr">Le duel d'artillerie du bureau amadeOS : des chars se tiennent sur un paysage de collines et de vallées et jouent chacun leur tour. Réglez l'angle du canon et la puissance du tir, tenez compte du vent et faites feu. Chaque impact creuse un cratère dans le sol, la terre sans appui s'effondre, et un char dont le sol est emporté tombe avec elle. Le dernier char debout gagne la manche.</p>
-    <p xml:lang="es">El duelo de artillería del escritorio amadeOS: los tanques están sobre un paisaje de colinas y valles y juegan por turnos. Ajuste el ángulo del cañón y la potencia del disparo, tenga en cuenta el viento y dispare. Cada impacto abre un cráter en el suelo, la tierra sin apoyo se derrumba y un tanque al que le quitan el suelo cae con ella. El último tanque en pie gana la ronda.</p>
-    <p xml:lang="it">Il duello d'artiglieria del desktop amadeOS: i carri armati stanno su un paesaggio di colline e valli e giocano a turno. Regola l'angolo della canna e la potenza del colpo, tieni conto del vento e spara. Ogni colpo apre un cratere nel terreno, la terra senza appoggio crolla e un carro a cui viene tolto il terreno cade con essa. L'ultimo carro rimasto vince il round.</p>
+    <p>The first-person shooter of the amadeOS desktop. An engineer goes down into Kessel Deep, a mine under the ice of a frozen moon, where the control system called the Foreman has turned the machines against the crew. Walk through halls, shafts and workshops, find the access chips for the locked doors, look for secrets and take the lift down, level by level, to the Foreman's core.</p>
+    <p xml:lang="de">Der Ego-Shooter des amadeOS-Desktops. Eine Technikerin oder ein Techniker fährt hinab nach Kessel Deep, eine Mine unter dem Eis eines gefrorenen Mondes. Dort hat das Steuersystem, der Vorarbeiter, die Maschinen gegen die Mannschaft gewendet. Gehen Sie durch Hallen, Schächte und Werkstätten, finden Sie die Zugangschips für die verschlossenen Türen, suchen Sie Verstecke und fahren Sie mit dem Aufzug Level für Level hinab bis zum Kern des Vorarbeiters.</p>
+    <p xml:lang="fr">Le jeu de tir à la première personne du bureau amadeOS. Une personne ingénieure descend dans Kessel Deep, une mine sous la glace d'une lune gelée, où le système de contrôle, le Contremaître, a retourné les machines contre l'équipage. Parcourez halls, puits et ateliers, trouvez les puces d'accès des portes verrouillées, cherchez les secrets et descendez par l'ascenseur, niveau après niveau, jusqu'au cœur du Contremaître.</p>
+    <p xml:lang="es">El juego de disparos en primera persona del escritorio amadeOS. Una persona ingeniera baja a Kessel Deep, una mina bajo el hielo de una luna helada, donde el sistema de control llamado el Capataz ha vuelto las máquinas contra la tripulación. Recorra salas, pozos y talleres, encuentre los chips de acceso de las puertas cerradas, busque los secretos y baje en el ascensor, nivel a nivel, hasta el núcleo del Capataz.</p>
+    <p xml:lang="it">Lo sparatutto in prima persona del desktop amadeOS. Una persona ingegnere scende a Kessel Deep, una miniera sotto il ghiaccio di una luna gelata, dove il sistema di controllo chiamato il Caposquadra ha rivolto le macchine contro l'equipaggio. Attraversa sale, pozzi e officine, trova i chip d'accesso delle porte chiuse, cerca i segreti e scendi con l'ascensore, livello dopo livello, fino al nucleo del Caposquadra.</p>
     <ul>
-      <li>Two to four players, people and computers of three levels in any mix, at one screen</li>
-      <li xml:lang="de">Zwei bis vier Spieler, Menschen und Computer in drei Stufen beliebig gemischt, an einem Bildschirm</li>
-      <li xml:lang="fr">De deux à quatre joueurs, humains et ordinateurs de trois niveaux mélangés à volonté, sur un seul écran</li>
-      <li xml:lang="es">De dos a cuatro jugadores, personas y ordenadores de tres niveles en cualquier combinación, en una sola pantalla</li>
-      <li xml:lang="it">Da due a quattro giocatori, persone e computer di tre livelli in qualsiasi combinazione, su un solo schermo</li>
-      <li>Four landscapes: an alpine valley, dunes, winter peaks and the moon, with its weaker gravity and no wind</li>
-      <li xml:lang="de">Vier Landschaften: ein Alpental, Dünen, Wintergipfel und der Mond, mit schwächerer Schwerkraft und ohne Wind</li>
-      <li xml:lang="fr">Quatre paysages : une vallée alpine, des dunes, des sommets enneigés et la lune, avec sa gravité plus faible et sans vent</li>
-      <li xml:lang="es">Cuatro paisajes: un valle alpino, dunas, picos invernales y la luna, con su gravedad más débil y sin viento</li>
-      <li xml:lang="it">Quattro paesaggi: una valle alpina, dune, vette invernali e la luna, con la sua gravità più debole e senza vento</li>
-      <li>Four weapons: the shell, the heavy shell, the triple shot and the dirt shot, which heaps up earth</li>
-      <li xml:lang="de">Vier Waffen: die Granate, die schwere Granate, der Dreifachschuss und der Erdschuss, der Erde aufschüttet</li>
-      <li xml:lang="fr">Quatre armes : l'obus, l'obus lourd, le tir triple et l'obus de terre, qui amoncelle de la terre</li>
-      <li xml:lang="es">Cuatro armas: el proyectil, el proyectil pesado, el disparo triple y el proyectil de tierra, que amontona tierra</li>
-      <li xml:lang="it">Quattro armi: il proiettile, il proiettile pesante, il colpo triplo e il proiettile di terra, che ammucchia terra</li>
-      <li>The shot that decided a round is shown again in slow motion</li>
-      <li xml:lang="de">Der Schuss, der eine Runde entschieden hat, wird in Zeitlupe wiederholt</li>
-      <li xml:lang="fr">Le tir qui a décidé une manche est rejoué au ralenti</li>
-      <li xml:lang="es">El disparo que decidió una ronda se repite a cámara lenta</li>
-      <li xml:lang="it">Il colpo che ha deciso un round viene rivisto al rallentatore</li>
-      <li>Keyboard, mouse or gamepad</li>
-      <li xml:lang="de">Tastatur, Maus oder Gamepad</li>
-      <li xml:lang="fr">Clavier, souris ou manette</li>
-      <li xml:lang="es">Teclado, ratón o mando</li>
-      <li xml:lang="it">Tastiera, mouse o gamepad</li>
+      <li>Nine levels in three sections, with three difficulties</li>
+      <li xml:lang="de">Neun Level in drei Abschnitten, mit drei Schwierigkeitsgraden</li>
+      <li xml:lang="fr">Neuf niveaux en trois sections, avec trois difficultés</li>
+      <li xml:lang="es">Nueve niveles en tres secciones, con tres dificultades</li>
+      <li xml:lang="it">Nove livelli in tre sezioni, con tre difficoltà</li>
+      <li>Six tools for weapons: the ice pick, the rivet gun, the scatter riveter, the arc welder, the plasma cutter and blasting charges</li>
+      <li xml:lang="de">Sechs Werkzeuge als Waffen: Eispickel, Nietpistole, Streunieter, Lichtbogenschweißer, Plasmaschneider und Sprengladungen</li>
+      <li xml:lang="fr">Six outils pour armes : le piolet, le pistolet à rivets, la riveteuse à dispersion, la soudeuse à l'arc, le découpeur plasma et les charges explosives</li>
+      <li xml:lang="es">Seis herramientas como armas: el piolet, la pistola de remaches, la remachadora de dispersión, la soldadora de arco, el cortador de plasma y las cargas explosivas</li>
+      <li xml:lang="it">Sei attrezzi come armi: la piccozza, la pistola rivettatrice, la rivettatrice a rosa, la saldatrice ad arco, la taglierina al plasma e le cariche esplosive</li>
+      <li>Drones, crawlers, sentries, loaders and the Foreman, all modelled in 3D and lit by the rooms they stand in</li>
+      <li xml:lang="de">Drohnen, Krabbler, Wachtürme, Lader und der Vorarbeiter, alle in 3D modelliert und vom Licht ihres Raums beleuchtet</li>
+      <li xml:lang="fr">Drones, rampeurs, sentinelles, chargeurs et le Contremaître, tous modélisés en 3D et éclairés par la salle où ils se trouvent</li>
+      <li xml:lang="es">Drones, reptadores, centinelas, cargadoras y el Capataz, todos modelados en 3D e iluminados por la sala en la que están</li>
+      <li xml:lang="it">Droni, striscianti, sentinelle, caricatori e il Caposquadra, tutti modellati in 3D e illuminati dalla sala in cui si trovano</li>
+      <li>Locked doors with access chips, hidden rooms, an automap and a high score table</li>
+      <li xml:lang="de">Verschlossene Türen mit Zugangschips, versteckte Räume, eine Karte und eine Bestenliste</li>
+      <li xml:lang="fr">Portes verrouillées à puces d'accès, salles cachées, une carte automatique et un tableau des meilleurs scores</li>
+      <li xml:lang="es">Puertas cerradas con chips de acceso, salas ocultas, un mapa automático y una tabla de récords</li>
+      <li xml:lang="it">Porte chiuse con chip d'accesso, stanze nascoste, una mappa automatica e una classifica</li>
+      <li>Keyboard and mouse, or gamepad</li>
+      <li xml:lang="de">Tastatur und Maus oder Gamepad</li>
+      <li xml:lang="fr">Clavier et souris, ou manette</li>
+      <li xml:lang="es">Teclado y ratón, o mando</li>
+      <li xml:lang="it">Tastiera e mouse, o gamepad</li>
       <li>Built on amade-game-engine; plays on other operating systems as well</li>
       <li xml:lang="de">Gebaut auf amade-game-engine; läuft auch auf anderen Betriebssystemen</li>
       <li xml:lang="fr">Construit sur amade-game-engine ; fonctionne aussi sur d'autres systèmes d'exploitation</li>
@@ -58,7 +58,7 @@
   <icon type="stock">amade-rivet-game</icon>
   <categories>
     <category>Game</category>
-    <category>StrategyGame</category>
+    <category>ActionGame</category>
   </categories>
 
   <url type="homepage">https://github.com/datazuul/amade-rivet-game</url>
@@ -69,11 +69,11 @@
 
   <screenshots>
     <screenshot type="default">
-      <caption>A duel in the alpine valley at sunset</caption>
-      <caption xml:lang="de">Ein Duell im Alpental bei Sonnenuntergang</caption>
-      <caption xml:lang="fr">Un duel dans la vallée alpine au coucher du soleil</caption>
-      <caption xml:lang="es">Un duelo en el valle alpino al atardecer</caption>
-      <caption xml:lang="it">Un duello nella valle alpina al tramonto</caption>
+      <caption>A drone over the landing pad, under the giant planet</caption>
+      <caption xml:lang="de">Eine Drohne über dem Landeplatz, unter dem riesigen Planeten</caption>
+      <caption xml:lang="fr">Un drone au-dessus de l'aire d'atterrissage, sous la planète géante</caption>
+      <caption xml:lang="es">Un dron sobre la plataforma de aterrizaje, bajo el planeta gigante</caption>
+      <caption xml:lang="it">Un drone sopra la piattaforma di atterraggio, sotto il pianeta gigante</caption>
       <image>https://raw.githubusercontent.com/datazuul/amade-rivet-game/main/docs/screenshots/amade-rivet-game.png</image>
     </screenshot>
   </screenshots>
@@ -82,6 +82,6 @@
     <binary>amade-rivet-game</binary>
   </provides>
   <content_rating type="oars-1.1">
-    <content_attribute id="violence-cartoon">mild</content_attribute>
+    <content_attribute id="violence-fantasy">moderate</content_attribute>
   </content_rating>
 </component>

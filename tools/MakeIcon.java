@@ -1,20 +1,23 @@
 import javax.imageio.ImageIO;
-import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.Graphics2D;
+import java.awt.RadialGradientPaint;
 import java.awt.RenderingHints;
+import java.awt.Shape;
+import java.awt.geom.Area;
 import java.awt.geom.Ellipse2D;
-import java.awt.geom.Line2D;
 import java.awt.geom.Path2D;
+import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
 /**
- * Draws the program icon of Rivet: a red tank on a green hill, its barrel raised, and the dotted arc
- * of its shell over an evening sky. Drawn as shapes on a 48 × 48 grid, so it is sharp at every size.
+ * Draws the program icon of Rivet: a steel plate of the station with a hazard stripe, frost in one corner,
+ * and one big brass rivet in the middle, its head lit from the upper left. Drawn as shapes on a 48 × 48
+ * grid, so it is sharp at every size.
  *
  * <pre>
  * java tools/MakeIcon.java 48 src/main/resources/icons/amade-rivet-game.png
@@ -42,65 +45,49 @@ public class MakeIcon {
     }
 
     static void paint(Graphics2D g) {
-        // The sky, a rounded square.
-        RoundRectangle2D frame = new RoundRectangle2D.Double(1, 1, 46, 46, 10, 10);
-        g.setPaint(new GradientPaint(0, 1, new Color(0x2A3C78), 0, 47, new Color(0xE89A78)));
-        g.fill(frame);
-        g.setClip(frame);
-        // The hill.
-        Path2D hill = new Path2D.Double();
-        hill.moveTo(0, 48);
-        hill.lineTo(0, 36);
-        hill.curveTo(6, 33, 12, 32, 18, 32.5);
-        hill.curveTo(26, 33, 34, 38, 48, 37);
-        hill.lineTo(48, 48);
-        hill.closePath();
-        g.setColor(new Color(0x5F4A2E));
-        g.fill(hill);
-        g.setColor(new Color(0x8FB84A));
-        g.setStroke(new BasicStroke(1.6f));
-        g.draw(topEdge());
-        g.setClip(null);
-        // The arc of the shell: dots over the sky, the shell at its end.
-        g.setColor(new Color(255, 245, 220, 210));
-        for (int i = 1; i < 8; i++) {
-            double t = i / 8.0, x = 19 + t * 24, y = 25 - 40 * t + 34 * t * t;
-            g.fill(new Ellipse2D.Double(x - 0.8, y - 0.8, 1.6, 1.6));
+        Shape plate = new RoundRectangle2D.Double(2, 2, 44, 44, 10, 10);
+        g.setPaint(new GradientPaint(0, 2, new Color(0x5d6873), 0, 46, new Color(0x2c333a)));
+        g.fill(plate);
+        g.setClip(plate);
+        // the hazard stripe along the bottom
+        g.setPaint(new Color(0x1e1f21));
+        g.fill(new Rectangle2D.Double(2, 37, 44, 9));
+        g.setPaint(new Color(0xd9a423));
+        for (int i = -2; i < 8; i++) {
+            Path2D.Double stripe = new Path2D.Double();
+            stripe.moveTo(i * 7, 46);
+            stripe.lineTo(i * 7 + 4, 46);
+            stripe.lineTo(i * 7 + 13, 37);
+            stripe.lineTo(i * 7 + 9, 37);
+            stripe.closePath();
+            g.fill(stripe);
         }
-        g.setColor(new Color(0x2A2A2A));
-        g.fill(new Ellipse2D.Double(41.5, 17.5, 3.4, 3.4));
-        // The barrel.
-        g.setColor(new Color(0x1E1E1E));
-        g.setStroke(new BasicStroke(2.6f, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND));
-        g.draw(new Line2D.Double(15, 26, 22, 20));
-        // The tracks.
-        g.setColor(new Color(0x2A2A2A));
-        g.fill(new RoundRectangle2D.Double(5, 29, 20, 5, 5, 5));
-        g.setColor(new Color(0x6A6A6A));
-        for (int i = 0; i < 5; i++) g.fill(new Ellipse2D.Double(6.4 + i * 3.6, 30.2, 2.6, 2.6));
-        // The hull and the turret.
-        Path2D hull = new Path2D.Double();
-        hull.moveTo(4, 29.5);
-        hull.lineTo(6.5, 25.5);
-        hull.lineTo(23.5, 25.5);
-        hull.lineTo(26, 29.5);
-        hull.closePath();
-        g.setPaint(new GradientPaint(0, 25, new Color(0xF0705E), 0, 30, new Color(0xB8352A)));
-        g.fill(hull);
-        g.fill(new Ellipse2D.Double(10, 20.5, 10, 9));
-        g.setColor(new Color(0x6A1A14));
-        g.setStroke(new BasicStroke(0.8f));
-        g.draw(hull);
-        g.setColor(new Color(255, 255, 255, 90));
-        g.fill(new Ellipse2D.Double(12, 21.5, 4, 2));
-    }
-
-    /** The lit top edge of the hill. */
-    private static Path2D topEdge() {
-        Path2D edge = new Path2D.Double();
-        edge.moveTo(0, 36);
-        edge.curveTo(6, 33, 12, 32, 18, 32.5);
-        edge.curveTo(26, 33, 34, 38, 48, 37);
-        return edge;
+        g.setPaint(new Color(0x15191d));
+        g.fill(new Rectangle2D.Double(2, 36, 44, 1.2));
+        // frost in the upper right corner
+        Area frost = new Area(new Ellipse2D.Double(33, -8, 22, 20));
+        frost.subtract(new Area(new Ellipse2D.Double(28, 7, 9, 6)));
+        g.setPaint(new Color(0x9fd4ec));
+        g.fill(frost);
+        g.setPaint(new Color(0xe6f8ff));
+        g.fill(new Ellipse2D.Double(39, 2, 6, 4));
+        // small rivets in the corners
+        for (double[] p : new double[][]{{7, 7}, {7, 31}, {41, 31}}) {
+            g.setPaint(new Color(0x23292e));
+            g.fill(new Ellipse2D.Double(p[0] - 2.2, p[1] - 1.8, 4.4, 4.4));
+            g.setPaint(new Color(0x9aa3ab));
+            g.fill(new Ellipse2D.Double(p[0] - 1.8, p[1] - 2.2, 3.6, 3.6));
+        }
+        g.setClip(null);
+        // the big rivet: a shadow, the head, a highlight
+        g.setPaint(new Color(0, 0, 0, 110));
+        g.fill(new Ellipse2D.Double(12.5, 10.5, 25, 25));
+        g.setPaint(new RadialGradientPaint(19, 15, 17, new float[]{0, 0.35f, 1},
+                new Color[]{new Color(0xfff0c0), new Color(0xd2a550), new Color(0x6a4a1c)}));
+        g.fill(new Ellipse2D.Double(11, 8, 25, 25));
+        g.setPaint(new Color(255, 255, 255, 170));
+        g.fill(new Ellipse2D.Double(16, 12, 6, 4));
+        g.setPaint(new Color(0x3a2a10));
+        g.draw(new Ellipse2D.Double(11, 8, 25, 25));
     }
 }

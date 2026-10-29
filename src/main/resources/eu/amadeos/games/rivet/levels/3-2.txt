@@ -1,0 +1,45 @@
+name Reactor Ring
+start 0
+par 280
+fog 120a06 0.06
+ambient 0.1 0.08 0.06
+floor plate
+light 17.5 17.5 1.4 0.6 0.25 6
+map
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RRPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPRR
+RRP..............h...............PRR
+RRP.c..P.b......q..........t.....PRR
+RRP....P.u.......l...c........V..PRR
+RRP..,.s.....P.......P......,....PRR
+RRP....Pk......,....,............PRR
+RRP.q..Pc....................d...PRR
+RRP....P.m.....................k.PRR
+RRP..-......................a....PRR
+RRP........y............y........PRR
+RRP......d.......X........d......PRR
+RRP...P.....................P....PRR
+RRP.h.........d..................PRR
+RRP...,........:....:........,...PRR
+RRP..............................PRR
+RRPr..@....c............c...l...rPRR
+RRP..............l...............PRR
+RRP...,......................,...PRR
+RRP............:....:............PRR
+RRP...P..............d......P..h.PRR
+RRP..............................PRR
+RRP..............v...............PRR
+RRP......d.y............y.d......PRR
+RRP...g.....................-....PRR
+RRP.......................m....q.PRR
+RRP..............................PRR
+RRP.c........P.,....,P........c..PRR
+RRP...,.....................,....PRR
+RRP..A........c..l............G..PRR
+RRP.k...t.................b......PRR
+RRP...............h..............PRR
+RRPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPRR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+end

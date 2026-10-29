@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AppStream metadata of amade-rivet-game, installed as /usr/share/metainfo/eu.amadeos.games.rivet.metainfo.xml.
+     amadeOS Software shows it for the installed package; a repository's appstream-generator reads it too. -->
+<component type="desktop-application">
+  <id>eu.amadeos.games.rivet</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>EUPL-1.2</project_license>
+
+  <name>amadeOS Rivet</name>
+
+  <summary>Two to four tanks take turns firing shells over hills, against the wind, on ground that breaks apart</summary>
+  <summary xml:lang="de">Zwei bis vier Panzer feuern abwechselnd über Hügel, gegen den Wind, auf einem Boden, der zerbricht</summary>
+  <summary xml:lang="fr">Deux à quatre chars tirent à tour de rôle par-dessus les collines, contre le vent, sur un sol qui se brise</summary>
+  <summary xml:lang="es">De dos a cuatro tanques disparan por turnos sobre las colinas, contra el viento, en un terreno que se rompe</summary>
+  <summary xml:lang="it">Da due a quattro carri armati sparano a turno sopra le colline, contro il vento, su un terreno che si sgretola</summary>
+
+  <description>
+    <p>The rivet duel of the amadeOS desktop: tanks stand on a landscape of hills and valleys and take turns. Set the barrel's angle and the shot's power, mind the wind, and fire. Every hit blasts a crater out of the ground, earth without support falls down, and a tank whose ground is shot away falls with it. The last tank standing wins the round.</p>
+    <p xml:lang="de">Das Artillerie-Duell des amadeOS-Desktops: Panzer stehen auf einer Landschaft aus Hügeln und Tälern und sind abwechselnd am Zug. Stellen Sie den Winkel des Rohrs und die Stärke des Schusses ein, achten Sie auf den Wind und feuern Sie. Jeder Treffer sprengt einen Krater in den Boden, Erde ohne Halt fällt herab, und ein Panzer, dem der Boden weggeschossen wird, fällt mit. Der letzte Panzer gewinnt die Runde.</p>
+    <p xml:lang="fr">Le duel d'artillerie du bureau amadeOS : des chars se tiennent sur un paysage de collines et de vallées et jouent chacun leur tour. Réglez l'angle du canon et la puissance du tir, tenez compte du vent et faites feu. Chaque impact creuse un cratère dans le sol, la terre sans appui s'effondre, et un char dont le sol est emporté tombe avec elle. Le dernier char debout gagne la manche.</p>
+    <p xml:lang="es">El duelo de artillería del escritorio amadeOS: los tanques están sobre un paisaje de colinas y valles y juegan por turnos. Ajuste el ángulo del cañón y la potencia del disparo, tenga en cuenta el viento y dispare. Cada impacto abre un cráter en el suelo, la tierra sin apoyo se derrumba y un tanque al que le quitan el suelo cae con ella. El último tanque en pie gana la ronda.</p>
+    <p xml:lang="it">Il duello d'artiglieria del desktop amadeOS: i carri armati stanno su un paesaggio di colline e valli e giocano a turno. Regola l'angolo della canna e la potenza del colpo, tieni conto del vento e spara. Ogni colpo apre un cratere nel terreno, la terra senza appoggio crolla e un carro a cui viene tolto il terreno cade con essa. L'ultimo carro rimasto vince il round.</p>
+    <ul>
+      <li>Two to four players, people and computers of three levels in any mix, at one screen</li>
+      <li xml:lang="de">Zwei bis vier Spieler, Menschen und Computer in drei Stufen beliebig gemischt, an einem Bildschirm</li>
+      <li xml:lang="fr">De deux à quatre joueurs, humains et ordinateurs de trois niveaux mélangés à volonté, sur un seul écran</li>
+      <li xml:lang="es">De dos a cuatro jugadores, personas y ordenadores de tres niveles en cualquier combinación, en una sola pantalla</li>
+      <li xml:lang="it">Da due a quattro giocatori, persone e computer di tre livelli in qualsiasi combinazione, su un solo schermo</li>
+      <li>Four landscapes: an alpine valley, dunes, winter peaks and the moon, with its weaker gravity and no wind</li>
+      <li xml:lang="de">Vier Landschaften: ein Alpental, Dünen, Wintergipfel und der Mond, mit schwächerer Schwerkraft und ohne Wind</li>
+      <li xml:lang="fr">Quatre paysages : une vallée alpine, des dunes, des sommets enneigés et la lune, avec sa gravité plus faible et sans vent</li>
+      <li xml:lang="es">Cuatro paisajes: un valle alpino, dunas, picos invernales y la luna, con su gravedad más débil y sin viento</li>
+      <li xml:lang="it">Quattro paesaggi: una valle alpina, dune, vette invernali e la luna, con la sua gravità più debole e senza vento</li>
+      <li>Four weapons: the shell, the heavy shell, the triple shot and the dirt shot, which heaps up earth</li>
+      <li xml:lang="de">Vier Waffen: die Granate, die schwere Granate, der Dreifachschuss und der Erdschuss, der Erde aufschüttet</li>
+      <li xml:lang="fr">Quatre armes : l'obus, l'obus lourd, le tir triple et l'obus de terre, qui amoncelle de la terre</li>
+      <li xml:lang="es">Cuatro armas: el proyectil, el proyectil pesado, el disparo triple y el proyectil de tierra, que amontona tierra</li>
+      <li xml:lang="it">Quattro armi: il proiettile, il proiettile pesante, il colpo triplo e il proiettile di terra, che ammucchia terra</li>
+      <li>The shot that decided a round is shown again in slow motion</li>
+      <li xml:lang="de">Der Schuss, der eine Runde entschieden hat, wird in Zeitlupe wiederholt</li>
+      <li xml:lang="fr">Le tir qui a décidé une manche est rejoué au ralenti</li>
+      <li xml:lang="es">El disparo que decidió una ronda se repite a cámara lenta</li>
+      <li xml:lang="it">Il colpo che ha deciso un round viene rivisto al rallentatore</li>
+      <li>Keyboard, mouse or gamepad</li>
+      <li xml:lang="de">Tastatur, Maus oder Gamepad</li>
+      <li xml:lang="fr">Clavier, souris ou manette</li>
+      <li xml:lang="es">Teclado, ratón o mando</li>
+      <li xml:lang="it">Tastiera, mouse o gamepad</li>
+      <li>Built on amade-game-engine; plays on other operating systems as well</li>
+      <li xml:lang="de">Gebaut auf amade-game-engine; läuft auch auf anderen Betriebssystemen</li>
+      <li xml:lang="fr">Construit sur amade-game-engine ; fonctionne aussi sur d'autres systèmes d'exploitation</li>
+      <li xml:lang="es">Hecho con amade-game-engine; funciona también en otros sistemas operativos</li>
+      <li xml:lang="it">Costruito su amade-game-engine; funziona anche su altri sistemi operativi</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">amade-rivet-game.desktop</launchable>
+  <icon type="stock">amade-rivet-game</icon>
+  <categories>
+    <category>Game</category>
+    <category>StrategyGame</category>
+  </categories>
+
+  <url type="homepage">https://github.com/datazuul/amade-rivet-game</url>
+  <url type="bugtracker">https://github.com/datazuul/amade-rivet-game/issues</url>
+  <developer id="eu.amadeos">
+    <name>amadeOS Project</name>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>A duel in the alpine valley at sunset</caption>
+      <caption xml:lang="de">Ein Duell im Alpental bei Sonnenuntergang</caption>
+      <caption xml:lang="fr">Un duel dans la vallée alpine au coucher du soleil</caption>
+      <caption xml:lang="es">Un duelo en el valle alpino al atardecer</caption>
+      <caption xml:lang="it">Un duello nella valle alpina al tramonto</caption>
+      <image>https://raw.githubusercontent.com/datazuul/amade-rivet-game/main/docs/screenshots/amade-rivet-game.png</image>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>amade-rivet-game</binary>
+  </provides>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">mild</content_attribute>
+  </content_rating>
+</component>

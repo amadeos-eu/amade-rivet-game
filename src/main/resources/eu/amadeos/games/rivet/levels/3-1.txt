@@ -1,0 +1,37 @@
+name Server Vault
+start 0
+par 220
+fog 060a0e 0.08
+ambient 0.07 0.08 0.1
+floor grate
+map
+RRRRRRRRRRRRRRRRRPPPPPPPRRRRRRRRRRRR
+RRRRRRRRRRRRRRRRRP.m.u.PRRRRRRRRRRRR
+RRRRRRRRRRRRRRRRRP..q..PRRRRRRRRRRRR
+RRRRRRRRPPPPPPPPPPPPsPPPPPPPPPPRRRRR
+RRRRRRRRP.t..,q........,.....tPRRRRR
+RRRRRRRRP..........d........G.PRRRRR
+RRRRRRRRP..CC...CC...CC...CC..PRRRRR
+RRRRRRRRP..CC...CC...CC...CC..PRRRRR
+RRRRRRRRPr.CCc..CC...CC...CC..PPPPPP
+RRRRRRRRP..CC.;.CC.;.CC.;.CC.hP..t.P
+PPPPPPPPP..CC...CC...CC...CCc.P....P
+P.b...h.P..CC...CC...CC...CC..P..,.P
+P.......P.cCC...CC.b.CC...CC..P....P
+P.......P.....................P....P
+P.@.,...|.....d....l....d...,.g....X
+P.......P.....................P....P
+P.......P..CC...CC...CC...CC..P....P
+P.....r.P..CC...CC...CC...CC..P..,.P
+PPPPPPPPP..CC...CC...CCc..CC.dP....P
+RRRRRRRRP..CC...CC...CC...CC..P.d.hP
+RRRRRRRRPd.CC.;.CC.;.CC.;.CC..PPPPPP
+RRRRRRRRP..CC...CC...CC...CC..PRRRRR
+RRRRRRRRP..CC...CCc..CC...CC.kPRRRRR
+RRRRRRRRP..CC...CC...CC...CC..PRRRRR
+RRRRRRRRP..CC...CC...CC...CC..PRRRRR
+RRRRRRRRPk.........d........6.PRRRRR
+RRRRRRRRP....,.........,......PRRRRR
+RRRRRRRRPht.............q....tPRRRRR
+RRRRRRRRPPPPPPPPPPPPPPPPPPPPPPPRRRRR
+end

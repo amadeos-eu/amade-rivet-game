@@ -1,0 +1,36 @@
+name Workshops
+start 0
+par 240
+fog 0d1014 0.07
+ambient 0.1 0.09 0.08
+floor grate
+map
+PPPPPPPPPPPPPPPPPCPPPPPPPPPPPCPPPPPP
+P..........P.y........yPx.........xP
+P.r......c.H....d......H.b.......t.P
+P..........P........c..P...........P
+P..@..,....|.....,.....|.....,.....T
+P..........P...........P...........P
+P..........T..c........P......d....P
+P..........P.........r.P.........t.P
+P.........hP...........Py.........hP
+PPPPP-PPPPPPPPPPP-PPPPPPPPPPPaPPPPPP
+Py.........P...........P...........P
+P..........P..MM...MM..P.d..b......P
+P.......d..P..MM...MM..P...........P
+T.....,....|.....,.....|..,..PPPsPPP
+P..........P.c...l.....P.....P.....P
+P...c......P..MM...MM..P.....Pq....P
+P.r......b.P..MM...MM..P..Vc.P.u...P
+P..........PA........t.P.....P...m.P
+PPPPP-PPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+Pxx..............P.h..............xP
+P................P......d..........P
+P..c...........d.P........MM.......P
+P.....,.....,....v....,...MM...,...X
+P................P........MM.......P
+P.........c......P........MM.......P
+P.............r..P...c.........l...P
+Ph..............yP.................P
+PPPPPCPPTPPPPPPPPPPPPPPPPPPPPPPPPPPP
+end

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=amadeOS Rivet
+GenericName=Rivet Duel Game
+GenericName[de]=Artillerie-Duell
+GenericName[fr]=Jeu de duel d'artillerie
+GenericName[es]=Juego de duelo de artillería
+GenericName[it]=Gioco di duello d'artiglieria
+Comment=Two to four tanks take turns firing shells over hills, against the wind, on ground that breaks apart
+Comment[de]=Zwei bis vier Panzer feuern abwechselnd über Hügel, gegen den Wind, auf einem Boden, der zerbricht
+Comment[fr]=Deux à quatre chars tirent à tour de rôle par-dessus les collines, contre le vent, sur un sol qui se brise
+Comment[es]=De dos a cuatro tanques disparan por turnos sobre las colinas, contra el viento, en un terreno que se rompe
+Comment[it]=Da due a quattro carri armati sparano a turno sopra le colline, contro il vento, su un terreno che si sgretola
+Icon=amade-rivet-game
+Exec=/usr/bin/amade-rivet-game
+Terminal=false
+Categories=Game;StrategyGame;
+Keywords=rivet;tanks;cannon;wind;turns;ballistics;hotseat;gamepad;game;
+StartupNotify=true

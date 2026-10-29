@@ -1,0 +1,34 @@
+name Landing Pad
+start 0
+par 120
+fog 2a3442 0.05
+ambient 0.16 0.17 0.2
+floor plate
+light 6 6 0.55 0.6 0.75 9
+light 6 17 0.55 0.6 0.75 9
+map
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+R____________RRRRRRRRRRRRRRRRRRRRR
+R____________PPPPPPPPPPPPPPPPPPPPR
+R__x_________H...x......yP.r..G.PR
+R_________c__P..,.....,.hP......CR
+R_____x______P...........|..,...PR
+R____________P...........P...d..PR
+R____________|.......c...P.....hPR
+R____________P...........PPPPPPPPR
+R_________y__P....c......PRRRRRRRR
+R____________P..,.....,..PRRRRRRRR
+R___@________H.........r.HRRRRRRRR
+R____________PPPPPP-PPPPPPPPPPPPPR
+R____________P.rP...........y..xPR
+R_______d____Pn.s.......c.......PR
+R____________P..P..,......,.....PR
+R________x___PPPP....d........c.PR
+R____________RRRP.x............hPR
+R__r_________RRRPPPPPPPPPPPPPgPPPR
+R____________RRRRRRRRRRRRRP.....PR
+R____________RRRRRRRRRRRRRP..:..XR
+R____________RRRRRRRRRRRRRP.....PR
+R____________RRRRRRRRRRRRRPPPPPPPR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+end

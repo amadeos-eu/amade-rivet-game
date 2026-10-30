@@ -61,8 +61,8 @@
     <category>ActionGame</category>
   </categories>
 
-  <url type="homepage">https://github.com/datazuul/amade-rivet-game</url>
-  <url type="bugtracker">https://github.com/datazuul/amade-rivet-game/issues</url>
+  <url type="homepage">https://github.com/amadeos-eu/amade-rivet-game</url>
+  <url type="bugtracker">https://github.com/amadeos-eu/amade-rivet-game/issues</url>
   <developer id="eu.amadeos">
     <name>amadeOS Project</name>
   </developer>
@@ -74,7 +74,7 @@
       <caption xml:lang="fr">Un drone au-dessus de l'aire d'atterrissage, sous la planète géante</caption>
       <caption xml:lang="es">Un dron sobre la plataforma de aterrizaje, bajo el planeta gigante</caption>
       <caption xml:lang="it">Un drone sopra la piattaforma di atterraggio, sotto il pianeta gigante</caption>
-      <image>https://raw.githubusercontent.com/datazuul/amade-rivet-game/main/docs/screenshots/amade-rivet-game.png</image>
+      <image>https://raw.githubusercontent.com/amadeos-eu/amade-rivet-game/main/docs/screenshots/amade-rivet-game.png</image>
     </screenshot>
   </screenshots>
 

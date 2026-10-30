@@ -1,6 +1,6 @@
 # amade-rivet-game
 
-**amade-rivet-game** is the first-person 3D shooter of the [amadeOS](https://github.com/datazuul/amadeos) desktop. An engineer goes down into Kessel Deep, a mine under the ice of a frozen moon, where the control system called the Foreman has turned the machines against the crew. Nine levels in three sections lead from the landing pad on the surface down to the Foreman's core, with the engineer's tools for weapons. Built on [amade-game-engine](https://github.com/datazuul/amade-game-engine), whose raycaster draws the walls, floors and skies and whose model renderer turns signed-distance models into the 3D pictures of the machines, items and tools; runs on other operating systems as well.
+**amade-rivet-game** is the first-person 3D shooter of the [amadeOS](https://github.com/amadeos-eu/amadeos) desktop. An engineer goes down into Kessel Deep, a mine under the ice of a frozen moon, where the control system called the Foreman has turned the machines against the crew. Nine levels in three sections lead from the landing pad on the surface down to the Foreman's core, with the engineer's tools for weapons. Built on [amade-game-engine](https://github.com/amadeos-eu/amade-game-engine), whose raycaster draws the walls, floors and skies and whose model renderer turns signed-distance models into the 3D pictures of the machines, items and tools; runs on other operating systems as well.
 
 ![License](https://img.shields.io/badge/license-EUPL--1.2-blue)
 ![Java](https://img.shields.io/badge/Java-25-orange)

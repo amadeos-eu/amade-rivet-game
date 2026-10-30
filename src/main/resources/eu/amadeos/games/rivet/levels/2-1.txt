@@ -1,0 +1,38 @@
+name Ice Shaft
+start 0
+par 220
+fog 16222e 0.09
+ambient 0.07 0.09 0.13
+floor ice
+map
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+I...........h..IIIIIIIIIIIIIIIIIII
+I.@...;...r....IIIIIIIIIIIIIIIIIII
+I..............IIIIIIIIIIIIIIIIIII
+IIIIIIIIIIII...IIIIIIIIIIIIII..hII
+IIIIIIIIIIII.d.IIIIIIIIIIIIII...II
+IIIIIIIIIIII...IIIIIIIIIIIIII.d.II
+IIIIIIIIIIII.;.IIIIIIIIIIIIII...II
+IIIIIIIIIIII...IIIIIIIIIIIIII.;.II
+IIIIIIIIIIII...IIIIIIIIIIIIII...II
+IIIIIIIIy...........hIIIIIIII...II
+III....I..d........c.IIIIIIII...II
+III.u..I......................r.II
+III....s...;.....;......d;..c...II
+III..m.I........................II
+IIIb...Ir.....b...d..IIIIIIII...II
+IIIIIIII............yIIIIIIII.d.II
+IIIIIIIIIIIIIIIIIIIIIIIIIIIII...II
+I........I.............IIIIII.;.II
+I.d......g.....;d......IIIIII...II
+I........I.......................I
+I...;....IIIIIIIIIIIIIq........5.I
+I.....c..IIIIIIIIIIIII..d........I
+X..l.....IIIIIIIIIIIII....;......I
+I........IIIIIIIIIIIII........b..I
+I....d...IIIIIIIIIIIII.....c.....I
+I...;....IIIIIIIIIIIII.G.......d.I
+I.q......IIIIIIIIIIIIIy.........hI
+I.......hIIIIIIIIIIIIIIIIIIIIIIIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+end

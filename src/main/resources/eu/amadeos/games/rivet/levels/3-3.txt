@@ -1,0 +1,43 @@
+name Foreman Core
+start 0
+par 300
+fog 0a0612 0.06
+ambient 0.08 0.07 0.1
+floor plate
+light 19.5 16.5 0.8 0.3 1.0 7
+map
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRRRRCCCCCCCCCCCCCCCCCCCCCCCRRR
+RRRRRRRRIt.........k.........tIRRR
+RRRRRRRRC.q.................b.CRRR
+RRRRRRRRC..,...............,..CRRR
+RRRRRRRRC.....................CRRR
+RRRRRRRRC....MM.........MM....CRRR
+RRRRRRRRC....MM.........MM....CRRR
+RRRPPPPPC..........:..........CRRR
+RRRPu.kPC.....................CRRR
+RRRP.q.PC...d.............d...CRRR
+RRRP...PC.....................PPPP
+PPPPPsPPC.....................P..P
+P..h..q..m...................mP..P
+P.@.,...|....:.....f.....:....v,.X
+P.............................P..P
+P..h..b..n...................nP..P
+PPPPPPPPC.....................PPPP
+RRRRRRRRC.....................CRRR
+RRRRRRRRC...d.............d...CRRR
+RRRRRRRRC..........:..........CRRR
+RRRRRRRRC.....................CRRR
+RRRRRRRRC....MM.........MM....CRRR
+RRRRRRRRC....MM.........MM....CRRR
+RRRRRRRRC.....................CRRR
+RRRRRRRRC..,...............,..CRRR
+RRRRRRRRC.b........m........q.CRRR
+RRRRRRRRIt.........k.........tIRRR
+RRRRRRRRCCCCCCCCCCCCCCCCCCCCCCCRRR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+end

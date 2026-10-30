@@ -1,0 +1,41 @@
+name Reservoir
+start 270
+par 260
+fog 0c141c 0.06
+ambient 0.08 0.09 0.11
+floor ice
+map
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPR
+RPt.................P..............hPR
+RP......,.c.q...d...a.....d.l.,.....PR
+RP.c................P.............d.PR
+RP..................................PR
+RP.,....................h......t..,.XR
+RP.....G............................PR
+RP......;.....d..............;......PR
+RP................l.................PR
+RPPgP.....II......;.......II.....PPPPR
+RP........II..............II........PR
+RPb.........y...........y....r.....bPR
+RP...............MMM................PR
+RP....d..........MMM..........d.....PR
+RP......n...c....MMM....c.........c.PR
+RP..................................PR
+RP..................................PR
+RP.,......II..............II......,.PR
+RP........II......;.......II........PR
+RP.c........y.........d.y.........A.PR
+RP......;....................;......PR
+RP.....b............................PR
+RP....t........................q....PR
+RP................-.................PR
+RP................................d.PR
+RP.r..,.c....h.,..@......r..c.,.....PR
+RPh.................................PR
+RPPPPPPPPPPPPPPPPPsPPPPPPPPPPPPPPPPPPR
+RRRRRRRRRRRRRRP.......PRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRP.u...m.PRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRP...k...PRRRRRRRRRRRRRRR
+RRRRRRRRRRRRRRPPPPPPPPPRRRRRRRRRRRRRRR
+end

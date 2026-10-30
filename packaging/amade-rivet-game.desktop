@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=amadeOS Rivet
+GenericName=First-Person Shooter
+GenericName[de]=Ego-Shooter
+GenericName[fr]=Jeu de tir à la première personne
+GenericName[es]=Juego de disparos en primera persona
+GenericName[it]=Sparatutto in prima persona
+Comment=In 3D against the machines of a mine under the ice of a frozen moon
+Comment[de]=In 3D gegen die Maschinen einer Mine unter dem Eis eines gefrorenen Mondes
+Comment[fr]=En 3D contre les machines d'une mine sous la glace d'une lune gelée
+Comment[es]=En 3D contra las máquinas de una mina bajo el hielo de una luna helada
+Comment[it]=In 3D contro le macchine di una miniera sotto il ghiaccio di una luna gelata
+Icon=amade-rivet-game
+Exec=/usr/bin/amade-rivet-game
+Terminal=false
+Categories=Game;ActionGame;
+Keywords=rivet;shooter;3d;first-person;machines;robots;mine;moon;gamepad;game;
+StartupNotify=true

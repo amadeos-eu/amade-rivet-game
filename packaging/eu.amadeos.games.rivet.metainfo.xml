@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AppStream metadata of amade-rivet-game, installed as /usr/share/metainfo/eu.amadeos.games.rivet.metainfo.xml.
+     amadeOS Software shows it for the installed package; a repository's appstream-generator reads it too. -->
+<component type="desktop-application">
+  <id>eu.amadeos.games.rivet</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>EUPL-1.2</project_license>
+
+  <name>amadeOS Rivet</name>
+
+  <summary>In 3D against the machines of a mine under the ice of a frozen moon</summary>
+  <summary xml:lang="de">In 3D gegen die Maschinen einer Mine unter dem Eis eines gefrorenen Mondes</summary>
+  <summary xml:lang="fr">En 3D contre les machines d'une mine sous la glace d'une lune gelée</summary>
+  <summary xml:lang="es">En 3D contra las máquinas de una mina bajo el hielo de una luna helada</summary>
+  <summary xml:lang="it">In 3D contro le macchine di una miniera sotto il ghiaccio di una luna gelata</summary>
+
+  <description>
+    <p>The first-person shooter of the amadeOS desktop. An engineer goes down into Kessel Deep, a mine under the ice of a frozen moon, where the control system called the Foreman has turned the machines against the crew. Walk through halls, shafts and workshops, find the access chips for the locked doors, look for secrets and take the lift down, level by level, to the Foreman's core.</p>
+    <p xml:lang="de">Der Ego-Shooter des amadeOS-Desktops. Eine Technikerin oder ein Techniker fährt hinab nach Kessel Deep, eine Mine unter dem Eis eines gefrorenen Mondes. Dort hat das Steuersystem, der Vorarbeiter, die Maschinen gegen die Mannschaft gewendet. Gehen Sie durch Hallen, Schächte und Werkstätten, finden Sie die Zugangschips für die verschlossenen Türen, suchen Sie Verstecke und fahren Sie mit dem Aufzug Level für Level hinab bis zum Kern des Vorarbeiters.</p>
+    <p xml:lang="fr">Le jeu de tir à la première personne du bureau amadeOS. Une personne ingénieure descend dans Kessel Deep, une mine sous la glace d'une lune gelée, où le système de contrôle, le Contremaître, a retourné les machines contre l'équipage. Parcourez halls, puits et ateliers, trouvez les puces d'accès des portes verrouillées, cherchez les secrets et descendez par l'ascenseur, niveau après niveau, jusqu'au cœur du Contremaître.</p>
+    <p xml:lang="es">El juego de disparos en primera persona del escritorio amadeOS. Una persona ingeniera baja a Kessel Deep, una mina bajo el hielo de una luna helada, donde el sistema de control llamado el Capataz ha vuelto las máquinas contra la tripulación. Recorra salas, pozos y talleres, encuentre los chips de acceso de las puertas cerradas, busque los secretos y baje en el ascensor, nivel a nivel, hasta el núcleo del Capataz.</p>
+    <p xml:lang="it">Lo sparatutto in prima persona del desktop amadeOS. Una persona ingegnere scende a Kessel Deep, una miniera sotto il ghiaccio di una luna gelata, dove il sistema di controllo chiamato il Caposquadra ha rivolto le macchine contro l'equipaggio. Attraversa sale, pozzi e officine, trova i chip d'accesso delle porte chiuse, cerca i segreti e scendi con l'ascensore, livello dopo livello, fino al nucleo del Caposquadra.</p>
+    <ul>
+      <li>Nine levels in three sections, with three difficulties</li>
+      <li xml:lang="de">Neun Level in drei Abschnitten, mit drei Schwierigkeitsgraden</li>
+      <li xml:lang="fr">Neuf niveaux en trois sections, avec trois difficultés</li>
+      <li xml:lang="es">Nueve niveles en tres secciones, con tres dificultades</li>
+      <li xml:lang="it">Nove livelli in tre sezioni, con tre difficoltà</li>
+      <li>Six tools for weapons: the ice pick, the rivet gun, the scatter riveter, the arc welder, the plasma cutter and blasting charges</li>
+      <li xml:lang="de">Sechs Werkzeuge als Waffen: Eispickel, Nietpistole, Streunieter, Lichtbogenschweißer, Plasmaschneider und Sprengladungen</li>
+      <li xml:lang="fr">Six outils pour armes : le piolet, le pistolet à rivets, la riveteuse à dispersion, la soudeuse à l'arc, le découpeur plasma et les charges explosives</li>
+      <li xml:lang="es">Seis herramientas como armas: el piolet, la pistola de remaches, la remachadora de dispersión, la soldadora de arco, el cortador de plasma y las cargas explosivas</li>
+      <li xml:lang="it">Sei attrezzi come armi: la piccozza, la pistola rivettatrice, la rivettatrice a rosa, la saldatrice ad arco, la taglierina al plasma e le cariche esplosive</li>
+      <li>Drones, crawlers, sentries, loaders and the Foreman, all modelled in 3D and lit by the rooms they stand in</li>
+      <li xml:lang="de">Drohnen, Krabbler, Wachtürme, Lader und der Vorarbeiter, alle in 3D modelliert und vom Licht ihres Raums beleuchtet</li>
+      <li xml:lang="fr">Drones, rampeurs, sentinelles, chargeurs et le Contremaître, tous modélisés en 3D et éclairés par la salle où ils se trouvent</li>
+      <li xml:lang="es">Drones, reptadores, centinelas, cargadoras y el Capataz, todos modelados en 3D e iluminados por la sala en la que están</li>
+      <li xml:lang="it">Droni, striscianti, sentinelle, caricatori e il Caposquadra, tutti modellati in 3D e illuminati dalla sala in cui si trovano</li>
+      <li>Locked doors with access chips, hidden rooms, an automap and a high score table</li>
+      <li xml:lang="de">Verschlossene Türen mit Zugangschips, versteckte Räume, eine Karte und eine Bestenliste</li>
+      <li xml:lang="fr">Portes verrouillées à puces d'accès, salles cachées, une carte automatique et un tableau des meilleurs scores</li>
+      <li xml:lang="es">Puertas cerradas con chips de acceso, salas ocultas, un mapa automático y una tabla de récords</li>
+      <li xml:lang="it">Porte chiuse con chip d'accesso, stanze nascoste, una mappa automatica e una classifica</li>
+      <li>Keyboard and mouse, or gamepad</li>
+      <li xml:lang="de">Tastatur und Maus oder Gamepad</li>
+      <li xml:lang="fr">Clavier et souris, ou manette</li>
+      <li xml:lang="es">Teclado y ratón, o mando</li>
+      <li xml:lang="it">Tastiera e mouse, o gamepad</li>
+      <li>Built on amade-game-engine; plays on other operating systems as well</li>
+      <li xml:lang="de">Gebaut auf amade-game-engine; läuft auch auf anderen Betriebssystemen</li>
+      <li xml:lang="fr">Construit sur amade-game-engine ; fonctionne aussi sur d'autres systèmes d'exploitation</li>
+      <li xml:lang="es">Hecho con amade-game-engine; funciona también en otros sistemas operativos</li>
+      <li xml:lang="it">Costruito su amade-game-engine; funziona anche su altri sistemi operativi</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">amade-rivet-game.desktop</launchable>
+  <icon type="stock">amade-rivet-game</icon>
+  <categories>
+    <category>Game</category>
+    <category>ActionGame</category>
+  </categories>
+
+  <url type="homepage">https://github.com/datazuul/amade-rivet-game</url>
+  <url type="bugtracker">https://github.com/datazuul/amade-rivet-game/issues</url>
+  <developer id="eu.amadeos">
+    <name>amadeOS Project</name>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>A drone over the landing pad, under the giant planet</caption>
+      <caption xml:lang="de">Eine Drohne über dem Landeplatz, unter dem riesigen Planeten</caption>
+      <caption xml:lang="fr">Un drone au-dessus de l'aire d'atterrissage, sous la planète géante</caption>
+      <caption xml:lang="es">Un dron sobre la plataforma de aterrizaje, bajo el planeta gigante</caption>
+      <caption xml:lang="it">Un drone sopra la piattaforma di atterraggio, sotto il pianeta gigante</caption>
+      <image>https://raw.githubusercontent.com/datazuul/amade-rivet-game/main/docs/screenshots/amade-rivet-game.png</image>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>amade-rivet-game</binary>
+  </provides>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-fantasy">moderate</content_attribute>
+  </content_rating>
+</component>
